@@ -17,7 +17,7 @@
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="/" class="text-indigo-600 font-medium">Home</a>
                     <a href="#about" class="text-gray-600 hover:text-indigo-600 transition">About</a>
-                    <a href="#menu" class="text-gray-600 hover:text-indigo-600 transition">Menu</a>
+                    <a href="{{ route('menu') }}" class="text-gray-600 hover:text-indigo-600 transition">Menu</a>
                     <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition">Contact</a>
                     <a href="/login" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">
                         Sign In
@@ -47,7 +47,7 @@
                         <a href="/register" class="bg-indigo-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition text-center">
                             Join Coffee Lab
                         </a>
-                        <a href="#menu" class="border-2 border-indigo-600 text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-indigo-600 hover:text-white transition text-center">
+                        <a href="{{ route('menu') }}" class="border-2 border-indigo-600 text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-indigo-600 hover:text-white transition text-center">
                             View Menu
                         </a>
                     </div>
@@ -290,7 +290,7 @@
                     <ul class="space-y-2">
                         <li><a href="/" class="text-gray-400 hover:text-white transition">Home</a></li>
                         <li><a href="#about" class="text-gray-400 hover:text-white transition">About</a></li>
-                        <li><a href="#menu" class="text-gray-400 hover:text-white transition">Menu</a></li>
+                        <li><a href="{{ route('menu') }}" class="text-gray-400 hover:text-white transition">Menu</a></li>
                         <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
                     </ul>
                 </div>
